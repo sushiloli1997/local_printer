@@ -4,6 +4,14 @@ from io import BytesIO
 import qrcode
 
 
+import sys
+import os
+
+if hasattr(sys, 'frozen'):  # Check if running as a bundled executable
+    base_path = os.path.dirname(sys.executable)
+else:
+    base_path = os.path.dirname(os.path.abspath(__file__))
+
 class CardData:
     def __init__(self, issued_date, card_no, full_name, masterId, localLevel, father_name,issueOffice, officer_name, place_of_birth, ward, sex, district, designation, cardHolderSignature, cardHolderPhoto, issuerSignature ):
         self.card_no = card_no
@@ -178,8 +186,10 @@ def convert_and_add_base64_images(base64_strings_positions_sizes, tolerance=30):
 
 def create_front_card(card_data, elements, filename):
     try:
-        # Load the watermark image for the front
-        watermark = Image.open('asset/front.jpg').convert("RGBA")
+        # Load the watermark image for the back
+        back_image_path = os.path.join(base_path, 'asset', 'front.jpg')
+        watermark = Image.open(back_image_path).convert("RGBA")
+        # watermark = Image.open('asset/back.jpg').convert("RGBA")
 
         # Create a new image with the same size as the watermark
         width, height = watermark.size
@@ -200,6 +210,18 @@ def create_front_card(card_data, elements, filename):
                 img_data = base64.b64decode(element["data"])
                 img = Image.open(BytesIO(img_data)).convert("RGBA")
 
+                # Remove background
+                datas = img.getdata()
+                new_data = []
+                for item in datas:
+                    avg = sum(item[:3]) / 3
+                    if all(abs(x - avg) < 30 for x in item[:3]) and avg > 255 - 30:
+                        new_data.append((255, 255, 255, 0))
+                    else:
+                        new_data.append(item)
+
+                img.putdata(new_data)
+
                 # Resize the image if size is provided
                 if "size" in element:
                     img = img.resize(element["size"], Image.LANCZOS)
@@ -209,17 +231,19 @@ def create_front_card(card_data, elements, filename):
 
         # Save the final card
         image.convert('RGB').save(filename)
-        print(f"Front card saved at {filename}")
+        print(f"Back card saved at {filename}")
 
     except Exception as e:
-        print(f"Error creating front card: {e}")
+        print(f"Error creating back card: {e}") 
 
 
 
 def create_back_card(card_data, elements, filename):
     try:
         # Load the watermark image for the back
-        watermark = Image.open('asset/back.jpg').convert("RGBA")
+        back_image_path = os.path.join(base_path, 'asset', 'back.jpg')
+        watermark = Image.open(back_image_path).convert("RGBA")
+        # watermark = Image.open('asset/back.jpg').convert("RGBA")
 
         # Create a new image with the same size as the watermark
         width, height = watermark.size

@@ -8,6 +8,7 @@ import platform
 import cgi
 from fpdf import FPDF
 import logging
+import subprocess
 
 logging.basicConfig(level=logging.INFO)
 
@@ -76,7 +77,7 @@ class FileUploadHandler(BaseHTTPRequestHandler):
 
 
             # Generate QR code for the card
-            from frontbackdesign import CardData, create_back_card, create_front_card
+            from src.frontbackdesign import CardData, create_back_card, create_front_card
 
             card_data = CardData(card_no=str(card_data), 
                                 masterId = masterId,
@@ -241,87 +242,68 @@ class PrinterManager:
         printers = []
         if platform.system() == "Windows":
             try:
-                for printer in win32print.EnumPrinters(win32print.PRINTER_ENUM_LOCAL | win32print.PRINTER_ENUM_CONNECTIONS):
-                    printer_name = printer[2]
-                    p_handle = win32print.OpenPrinter(printer_name)
-                    printer_info = win32print.GetPrinter(p_handle, 2)
-                    status = printer_info[18]
-                    win32print.ClosePrinter(p_handle)
-                    
-                    status_str = "Ready"
-                    if status & win32print.PRINTER_STATUS_OFFLINE:
-                        status_str = "Offline"
-                    elif status & win32print.PRINTER_STATUS_ERROR:
-                        status_str = "Error"
-                    elif status & win32print.PRINTER_STATUS_BUSY:
-                        status_str = "Busy"
-                    elif status & win32print.PRINTER_STATUS_PAPER_JAM:
-                        status_str = "Paper Jam"
-                    elif status & win32print.PRINTER_STATUS_PAPER_OUT:
-                        status_str = "Paper Out"
-                    elif status & win32print.PRINTER_STATUS_OUTPUT_BIN_FULL:
-                        status_str = "Output Bin Full"
-                    elif status & win32print.PRINTER_STATUS_NOT_AVAILABLE:
-                        status_str = "Not Available"
-                    elif status & win32print.PRINTER_STATUS_NO_TONER:
-                        status_str = "No Toner"
-                    elif status & win32print.PRINTER_STATUS_PAGE_PUNT:
-                        status_str = "Page Punt"
-                    elif status & win32print.PRINTER_STATUS_USER_INTERVENTION:
-                        status_str = "User Intervention Required"
-                    elif status & win32print.PRINTER_STATUS_POWER_SAVE:
-                        status_str = "Power Save"
-                    elif status & win32print.PRINTER_STATUS_SERVER_UNKNOWN:
-                        status_str = "Server Unknown"
-                    elif status & win32print.PRINTER_STATUS_SERVER_OFFLINE:
-                        status_str = "Server Offline"
-                    elif status & win32print.PRINTER_STATUS_SERVER_UNAVAILABLE:
-                        status_str = "Server Unavailable"
-                    elif status & win32print.PRINTER_STATUS_WARMING_UP:
-                        status_str = "Warming Up"
-                    elif status & win32print.PRINTER_STATUS_TONER_LOW:
-                        status_str = "Toner Low"
-                    elif status & win32print.PRINTER_STATUS_NO_TONER:
-                        status_str = "No Toner"
-                    elif status & win32print.PRINTER_STATUS_PAGE_PUNT:
-                        status_str = "Page Punt"
-                    elif status & win32print.PRINTER_STATUS_USER_INTERVENTION:
-                        status_str = "User Intervention Required"
-                    elif status & win32print.PRINTER_STATUS_OUTPUT_BIN_FULL:
-                        status_str = "Output Bin Full"
-                    elif status & win32print.PRINTER_STATUS_NOT_AVAILABLE:
-                        status_str = "Not Available"
-                    elif status & win32print.PRINTER_STATUS_DOOR_OPEN:
-                        status_str = "Door Open"
-                    elif status & win32print.PRINTER_STATUS_ERROR:
-                        status_str = "Error"
-                    elif status & win32print.PRINTER_STATUS_INITIALIZING:
-                        status_str = "Initializing"
-                    elif status & win32print.PRINTER_STATUS_IO_ACTIVE:
-                        status_str = "IO Active"
-                    
-                    printers.append((printer_name, status_str))
+                # Query all printers
+                command = 'wmic printer get name, printerstatus, workoffline'
+                result = subprocess.run(command, capture_output=True, text=True, shell=True)
+                
+                if result.returncode == 0:
+                    print("Printer Statuses:\n")
+                    lines = result.stdout.splitlines()
+                    headers = lines[0].split()
+                    printers_status = lines[1:]
+
+                    for printer in printers_status:
+                        if printer.strip():  # Avoid empty lines
+                            printer_info = printer.split()
+                            printer_name = ' '.join(printer_info[:-2])  # Printer name might have spaces
+                            printer_status = printer_info[-2]
+                            printer_offline = printer_info[-1]
+
+                            # Map status code to human-readable status
+                            status_str = "Unknown"
+                            if printer_status == "3":
+                                status_str = "Idle"
+                            elif printer_status == "4":
+                                status_str = "Printing"
+                            elif printer_status == "5":
+                                status_str = "Warming Up"
+                            elif printer_offline.lower() == "true":
+                                status_str = "Offline"
+                            else:
+                                status_str = "Ready"
+
+                        printers.append((printer_name, status_str))
+                else:
+                    print(f"Failed to get printers status: {result.stderr}")
             except Exception as e:
-                print(f"Error getting Windows printers: {e}")
-        else:
-            try:
-                conn = cups.Connection()
-                printers_dict = conn.getPrinters()
-                for printer_name, printer_info in printers_dict.items():
-                    status = printer_info.get('printer-state', 'unknown')
-                    status_str = {
-                        3: "Idle",
-                        4: "Processing",
-                        5: "Stopped",
-                        6: "Canceled",
-                        7: "Aborted",
-                        9: "Completed",
-                    }.get(status, "Unknown")
-                    printers.append((printer_name, status_str))
-            except Exception as e:
-                print(f"Error getting CUPS printers: {e}")
+                print(f"Error checking printers status: {e}")
+
+
+
+# Output available printers and their statuses
+# for printer, status in printers:
+#     print(f"Printer: {printer}, Status: {status}")
+#             except Exception as e:
+#                 print(f"Error getting Windows printers: {e}")
+#         else:
+#             try:
+#                 conn = cups.Connection()
+#                 printers_dict = conn.getPrinters()
+#                 for printer_name, printer_info in printers_dict.items():
+#                     status = printer_info.get('printer-state', 'unknown')
+#                     status_str = {
+#                         3: "Idle",
+#                         4: "Processing",
+#                         5: "Stopped",
+#                         6: "Canceled",
+#                         7: "Aborted",
+#                         9: "Completed",
+#                     }.get(status, "Unknown")
+#                     printers.append((printer_name, status_str))
+#             except Exception as e:
+#                 print(f"Error getting CUPS printers: {e}")
         
-        return printers
+#         return printers
 
 
 
@@ -357,7 +339,7 @@ class PrinterApp:
         )
         self.printer_dropdown.grid(row=0, column=0, padx=5, pady=5)
         
-        # Refresh button
+        # # Refresh button
         refresh_btn = ttk.Button(
             printer_frame,
             text="⟳",
@@ -407,13 +389,13 @@ class PrinterApp:
 
 
 
-    def refresh_printers(self):
-        printers = PrinterManager.get_printers()
-        self.printers_dict = {f"{name} ({status})": name for name, status in printers}
-        self.printer_dropdown['values'] = list(self.printers_dict.keys())
+    # def refresh_printers(self):
+    #     printers = PrinterManager.get_printers()
+    #     self.printers_dict = {f"{name} ({status})": name for name, status in printers}
+    #     self.printer_dropdown['values'] = list(self.printers_dict.keys())
             
-        if self.printer_var.get() not in self.printer_dropdown['values']:
-            self.printer_var.set('')
+    #     if self.printer_var.get() not in self.printer_dropdown['values']:
+    #         self.printer_var.set('')
 
 
     def select_printer(self):
@@ -435,17 +417,24 @@ class PrinterApp:
         messagebox.showinfo("Success", f"Printer '{selected_printer}' has been selected!")
         print(f"Selected printer: {selected_printer}")
 
+    def refresh_printers(self):
+        printers = PrinterManager.get_printers()
+        if printers is not None:
+            self.printers_dict = {f"{name} ({status})": name for name, status in printers}
+        else:
+            self.printers_dict = {}
+        print("Available printers:", self.printers_dict)
+
     def periodic_refresh(self):
         self.refresh_printers()
         # Update status of selected printer if one is selected
-        if selected_printer:
+        if self.selected_printer:
             for printer_info in self.printer_dropdown['values']:
-                if selected_printer in printer_info:
+                if self.selected_printer in printer_info:
                     status = printer_info.split('(')[1].rstrip(')')
                     self.printer_status.config(text=f"Status: {status}")
                     break
         self.root.after(5000, self.periodic_refresh)
-
 
 
 

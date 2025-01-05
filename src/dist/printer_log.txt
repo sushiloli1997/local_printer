@@ -1,0 +1,263 @@
+2025-01-04 13:15:06,834 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 13:15:06,898 - DEBUG - Using proactor: IocpProactor
+2025-01-04 13:15:10,823 - INFO - Selected printer: Canon MF3010
+2025-01-04 13:15:17,597 - INFO - Root endpoint accessed
+2025-01-04 13:15:18,159 - INFO - Root endpoint accessed
+2025-01-04 13:15:18,307 - INFO - Root endpoint accessed
+2025-01-04 13:15:39,216 - INFO - Received card data.
+2025-01-04 13:15:39,281 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 13:15:39,281 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 13:15:39,281 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 13:15:39,281 - DEBUG - Compression method 0
+2025-01-04 13:15:39,281 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 13:15:39,432 - INFO - Front card saved at front.png
+2025-01-04 13:15:39,448 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 13:15:39,448 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 13:15:39,448 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 13:15:39,448 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 13:15:39,448 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 13:15:39,548 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 13:15:39,548 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 13:15:39,548 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 13:15:39,548 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 13:15:39,548 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 13:15:39,632 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 13:15:39,632 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 13:15:40,017 - INFO - Card images front: back.png and back: front.png created successfully
+2025-01-04 13:15:40,017 - INFO - Merging front and back card images to PDF...
+2025-01-04 13:15:40,048 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 13:16:17,490 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 13:16:32,496 - INFO - Successfully removed file: card.pdf
+2025-01-04 13:16:32,496 - INFO - File 'card.pdf' has been removed.
+2025-01-04 13:16:32,496 - INFO - Successfully removed file: front.png
+2025-01-04 13:16:32,496 - INFO - Successfully removed file: back.png
+2025-01-04 13:16:32,496 - INFO - Files removed: None, None
+2025-01-04 13:16:32,496 - INFO - Card successfully created and printed
+2025-01-04 13:16:59,974 - INFO - Selected printer: Evolis Primacy 2
+2025-01-04 13:17:07,147 - INFO - Received card data.
+2025-01-04 13:17:07,177 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 13:17:07,177 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 13:17:07,177 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 13:17:07,177 - DEBUG - Compression method 0
+2025-01-04 13:17:07,177 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 13:17:07,303 - INFO - Front card saved at front.png
+2025-01-04 13:17:07,310 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 13:17:07,310 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 13:17:07,310 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 13:17:07,310 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 13:17:07,310 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 13:17:07,411 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 13:17:07,411 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 13:17:07,411 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 13:17:07,414 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 13:17:07,414 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 13:17:07,494 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 13:17:07,494 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 13:17:07,845 - INFO - Card images front: back.png and back: front.png created successfully
+2025-01-04 13:17:07,845 - INFO - Merging front and back card images to PDF...
+2025-01-04 13:17:07,879 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 13:21:02,711 - INFO - File 'card.pdf' has been sent to the printer 'Evolis Primacy 2'.
+2025-01-04 13:21:17,713 - INFO - Successfully removed file: card.pdf
+2025-01-04 13:21:17,713 - INFO - File 'card.pdf' has been removed.
+2025-01-04 13:21:17,714 - INFO - Successfully removed file: front.png
+2025-01-04 13:21:17,714 - INFO - Successfully removed file: back.png
+2025-01-04 13:21:17,714 - INFO - Files removed: None, None
+2025-01-04 13:21:17,714 - INFO - Card successfully created and printed
+2025-01-05 09:51:58,839 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 09:51:58,926 - DEBUG - Using proactor: IocpProactor
+2025-01-05 09:52:06,067 - INFO - Selected printer: Canon MF3010
+2025-01-05 09:52:20,251 - INFO - Received card data.
+2025-01-05 09:52:20,349 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 09:52:20,349 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 09:52:20,349 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 09:52:20,349 - DEBUG - Compression method 0
+2025-01-05 09:52:20,349 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 09:52:20,583 - INFO - Front card saved at front.png
+2025-01-05 09:52:20,615 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 09:52:20,615 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 09:52:20,615 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 09:52:20,615 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 09:52:20,615 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 09:52:20,707 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 09:52:20,707 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 09:52:20,707 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 09:52:20,707 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 09:52:20,707 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 09:52:20,799 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 09:52:20,799 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 09:52:21,194 - INFO - Card images front: back.png and back: front.png created successfully
+2025-01-05 09:52:21,194 - INFO - Merging front and back card images to PDF...
+2025-01-05 09:52:21,220 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-05 09:52:34,613 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-05 09:52:49,620 - INFO - Successfully removed file: card.pdf
+2025-01-05 09:52:49,620 - INFO - File 'card.pdf' has been removed.
+2025-01-05 09:52:49,622 - INFO - Successfully removed file: front.png
+2025-01-05 09:52:49,622 - INFO - Successfully removed file: back.png
+2025-01-05 09:52:49,622 - INFO - Files removed: None, None
+2025-01-05 09:52:49,622 - INFO - Card successfully created and printed
+2025-01-05 09:55:16,101 - INFO - Selected printer: Canon G3060 series
+2025-01-05 09:55:57,915 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 09:55:58,004 - DEBUG - Using proactor: IocpProactor
+2025-01-05 10:17:51,826 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 10:17:51,905 - DEBUG - Using proactor: IocpProactor
+2025-01-05 10:18:10,826 - INFO - Root endpoint accessed
+2025-01-05 10:18:16,564 - INFO - Received card data.
+2025-01-05 10:18:16,613 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 10:18:16,613 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 10:18:16,613 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 10:18:16,613 - DEBUG - Compression method 0
+2025-01-05 10:18:16,613 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 10:18:16,730 - INFO - Front card saved at front.png
+2025-01-05 10:18:16,747 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 10:18:16,747 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 10:18:16,747 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 10:18:16,747 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 10:18:16,747 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 10:18:16,831 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 10:18:16,831 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 10:18:16,831 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 10:18:16,831 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 10:18:16,831 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 10:18:16,931 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 10:18:16,931 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 10:18:17,298 - INFO - Card images front: back.png and back: front.png created successfully
+2025-01-05 10:18:17,298 - INFO - Merging front and back card images to PDF...
+2025-01-05 10:18:17,316 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-05 10:18:17,316 - INFO - Error creating PDF: name 'selected_printer' is not defined
+2025-01-05 10:18:17,316 - ERROR - Error processing card data: name 'selected_printer' is not defined
+2025-01-05 16:35:38,221 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:35:38,324 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:35:43,958 - INFO - Received card data.
+2025-01-05 16:35:43,988 - INFO - Creating card images...
+2025-01-05 16:35:50,080 - INFO - Selected printer: Canon MF3010
+2025-01-05 16:35:50,744 - INFO - Received card data.
+2025-01-05 16:35:50,755 - INFO - Creating card images...
+2025-01-05 16:35:50,778 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:35:50,778 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 16:35:50,778 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 16:35:50,778 - DEBUG - Compression method 0
+2025-01-05 16:35:50,778 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 16:35:50,892 - INFO - Back card saved at front.png
+2025-01-05 16:35:50,893 - INFO - Front card saved at front.png
+2025-01-05 16:35:50,913 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:35:50,913 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:35:50,913 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:35:50,913 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:35:50,913 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 16:35:51,003 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:35:51,003 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:35:51,003 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:35:51,003 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:35:51,003 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 16:35:51,094 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:35:51,094 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 16:35:51,451 - INFO - Back card saved at back.png
+2025-01-05 16:35:51,454 - INFO - Card images front: front.png and back: back.png created successfully
+2025-01-05 16:35:51,454 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:35:51,479 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-05 16:40:40,157 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:40:40,228 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:40:41,161 - INFO - Received card data.
+2025-01-05 16:40:41,183 - INFO - Creating card images...
+2025-01-05 16:40:49,974 - INFO - Selected printer: T200 Pro
+2025-01-05 16:41:11,017 - INFO - Selected printer: T200 Pro
+2025-01-05 16:41:13,704 - INFO - Received card data.
+2025-01-05 16:41:13,714 - INFO - Creating card images...
+2025-01-05 16:41:13,734 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:41:13,734 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 16:41:13,734 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 16:41:13,734 - DEBUG - Compression method 0
+2025-01-05 16:41:13,734 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 16:41:13,854 - INFO - Back card saved at front.png
+2025-01-05 16:41:13,854 - INFO - Front card saved at front.png
+2025-01-05 16:41:13,864 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:41:13,864 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:41:13,864 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:41:13,864 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:41:13,864 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 16:41:13,964 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:41:13,964 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:41:13,964 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:41:13,964 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:41:13,964 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 16:41:14,054 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:41:14,054 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 16:41:14,504 - INFO - Back card saved at back.png
+2025-01-05 16:41:14,509 - INFO - Card images front: front.png and back: back.png created successfully
+2025-01-05 16:41:14,509 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:41:14,534 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-05 16:41:15,015 - INFO - File sent to printer successfully.
+2025-01-05 16:41:15,016 - INFO - File 'card.pdf' has been sent to the printer 'T200 Pro'.
+2025-01-05 16:41:30,016 - INFO - Successfully removed file: card.pdf
+2025-01-05 16:41:30,016 - INFO - File 'card.pdf' has been removed.
+2025-01-05 16:41:30,017 - INFO - Successfully removed file: front.png
+2025-01-05 16:41:30,017 - INFO - Successfully removed file: back.png
+2025-01-05 16:41:30,017 - INFO - Files removed: None, None
+2025-01-05 16:41:30,019 - INFO - Card successfully created and printed
+2025-01-05 16:41:50,954 - INFO - Received card data.
+2025-01-05 16:41:50,974 - INFO - Creating card images...
+2025-01-05 16:41:51,001 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:41:51,001 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 16:41:51,001 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 16:41:51,001 - DEBUG - Compression method 0
+2025-01-05 16:41:51,001 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 16:41:51,115 - INFO - Back card saved at front.png
+2025-01-05 16:41:51,115 - INFO - Front card saved at front.png
+2025-01-05 16:41:51,134 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:41:51,134 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:41:51,134 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:41:51,134 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:41:51,134 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 16:41:51,225 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:41:51,226 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:41:51,226 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:41:51,226 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:41:51,226 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 16:41:51,315 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:41:51,315 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 16:41:51,693 - INFO - Back card saved at back.png
+2025-01-05 16:41:51,697 - INFO - Card images front: front.png and back: back.png created successfully
+2025-01-05 16:41:51,697 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:41:51,721 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-05 16:41:52,151 - INFO - File sent to printer successfully.
+2025-01-05 16:41:52,151 - INFO - File 'card.pdf' has been sent to the printer 'T200 Pro'.
+2025-01-05 16:42:07,153 - INFO - Successfully removed file: card.pdf
+2025-01-05 16:42:07,154 - INFO - File 'card.pdf' has been removed.
+2025-01-05 16:42:07,154 - INFO - Successfully removed file: front.png
+2025-01-05 16:42:07,155 - INFO - Successfully removed file: back.png
+2025-01-05 16:42:07,156 - INFO - Files removed: None, None
+2025-01-05 16:42:07,156 - INFO - Card successfully created and printed
+2025-01-05 16:46:35,258 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:46:35,326 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:46:38,741 - INFO - Received card data.
+2025-01-05 16:46:38,764 - INFO - Creating card images...
+2025-01-05 16:50:31,890 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:50:31,961 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:50:41,744 - INFO - Received card data.
+2025-01-05 16:50:41,766 - INFO - Creating card images...
+2025-01-05 16:50:47,650 - INFO - Selected printer: Canon MF3010
+2025-01-05 16:50:51,478 - INFO - Received card data.
+2025-01-05 16:50:51,489 - INFO - Creating card images...
+2025-01-05 16:50:51,512 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:50:51,512 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 16:50:51,512 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 16:50:51,512 - DEBUG - Compression method 0
+2025-01-05 16:50:51,512 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 16:50:51,627 - INFO - Back card saved at front.png
+2025-01-05 16:50:51,627 - INFO - Front card saved at front.png
+2025-01-05 16:50:51,646 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:50:51,646 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:50:51,647 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:50:51,647 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:50:51,647 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 16:50:51,738 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:50:51,738 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:50:51,738 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:50:51,738 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:50:51,738 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 16:50:51,829 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:50:51,829 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 16:50:52,190 - INFO - Back card saved at back.png
+2025-01-05 16:50:52,194 - INFO - Card images front: front.png and back: back.png created successfully
+2025-01-05 16:50:52,194 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:50:52,218 - INFO - Full-page PDF successfully created at: card.pdf

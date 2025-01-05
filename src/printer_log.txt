@@ -1,0 +1,718 @@
+2025-01-03 19:54:43,375 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 19:54:43,427 - DEBUG - Using proactor: IocpProactor
+2025-01-03 19:54:48,700 - INFO - Received card data.
+2025-01-03 19:54:48,700 - ERROR - Error processing card data: 'CardData' object has no attribute 'card_no'
+2025-01-03 20:00:37,863 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 20:00:37,930 - DEBUG - Using proactor: IocpProactor
+2025-01-03 20:00:41,272 - INFO - Selected printer: Canon MF3010
+2025-01-03 20:00:44,342 - INFO - Received card data.
+2025-01-03 20:00:44,342 - ERROR - Error processing card data: 'CardData' object has no attribute 'card_no'
+2025-01-03 20:01:17,938 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 20:01:18,005 - DEBUG - Using proactor: IocpProactor
+2025-01-03 20:01:21,027 - INFO - Selected printer: Canon MF3010
+2025-01-03 20:01:25,913 - INFO - Received card data.
+2025-01-03 20:01:25,913 - ERROR - Error processing card data: 'CardData' object has no attribute 'sex'
+2025-01-03 20:02:00,627 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 20:02:00,693 - DEBUG - Using proactor: IocpProactor
+2025-01-03 20:02:05,196 - INFO - Received card data.
+2025-01-03 20:02:05,196 - ERROR - Error processing card data: CardData.qr_code_image() missing 1 required positional argument: 'masterId'
+2025-01-03 20:03:54,916 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 20:03:54,982 - DEBUG - Using proactor: IocpProactor
+2025-01-03 20:03:59,497 - INFO - Selected printer: Canon MF3010
+2025-01-03 20:04:02,952 - INFO - Received card data.
+2025-01-03 20:04:03,026 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:04:03,026 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-03 20:04:03,026 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-03 20:04:03,026 - DEBUG - Compression method 0
+2025-01-03 20:04:03,026 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-03 20:04:03,151 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.png
+2025-01-03 20:04:03,153 - ERROR - Error processing card data: create_back_card() missing 1 required positional argument: 'filename'
+2025-01-03 20:07:11,394 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 20:07:11,460 - DEBUG - Using proactor: IocpProactor
+2025-01-03 20:07:17,851 - INFO - Selected printer: Canon MF3010
+2025-01-03 20:07:20,909 - INFO - Received card data.
+2025-01-03 20:07:20,979 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:07:20,979 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-03 20:07:20,979 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-03 20:07:20,979 - DEBUG - Compression method 0
+2025-01-03 20:07:20,979 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-03 20:07:21,011 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.jpg
+2025-01-03 20:07:21,012 - ERROR - Error processing card data: create_back_card() missing 1 required positional argument: 'filename'
+2025-01-03 20:07:57,421 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 20:07:57,488 - DEBUG - Using proactor: IocpProactor
+2025-01-03 20:08:00,547 - INFO - Selected printer: Canon MF3010
+2025-01-03 20:08:02,851 - INFO - Received card data.
+2025-01-03 20:08:02,899 - ERROR - Error processing card data: create_front_card() takes 2 positional arguments but 3 were given
+2025-01-03 20:08:35,661 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 20:08:35,728 - DEBUG - Using proactor: IocpProactor
+2025-01-03 20:08:39,127 - INFO - Selected printer: Canon MF3010
+2025-01-03 20:08:41,054 - INFO - Received card data.
+2025-01-03 20:08:41,128 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:08:41,128 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-03 20:08:41,128 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-03 20:08:41,128 - DEBUG - Compression method 0
+2025-01-03 20:08:41,128 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-03 20:08:41,145 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.jpg
+2025-01-03 20:08:41,180 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:08:41,180 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-03 20:08:41,180 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-03 20:08:41,180 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-03 20:08:41,180 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-03 20:08:41,262 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:08:41,262 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-03 20:08:41,262 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-03 20:08:41,262 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-03 20:08:41,262 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-03 20:08:41,362 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:08:41,362 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-03 20:08:41,592 - INFO - Merging front and back card images to PDF...
+2025-01-03 20:08:41,606 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'back.png'
+2025-01-03 20:08:41,606 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'back.png'
+2025-01-03 20:10:16,702 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-03 20:10:16,767 - DEBUG - Using proactor: IocpProactor
+2025-01-03 20:10:20,344 - INFO - Selected printer: Canon MF3010
+2025-01-03 20:10:22,135 - INFO - Received card data.
+2025-01-03 20:10:22,185 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:10:22,185 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-03 20:10:22,185 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-03 20:10:22,185 - DEBUG - Compression method 0
+2025-01-03 20:10:22,185 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-03 20:10:22,202 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.jpg
+2025-01-03 20:10:22,235 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:10:22,235 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-03 20:10:22,235 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-03 20:10:22,235 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-03 20:10:22,235 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-03 20:10:22,334 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:10:22,334 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-03 20:10:22,334 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-03 20:10:22,334 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-03 20:10:22,334 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-03 20:10:22,419 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-03 20:10:22,419 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-03 20:10:22,668 - INFO - Merging front and back card images to PDF...
+2025-01-03 20:10:22,670 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'back.png'
+2025-01-03 20:10:22,670 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'back.png'
+2025-01-04 10:49:19,859 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 10:49:19,954 - DEBUG - Using proactor: IocpProactor
+2025-01-04 10:49:25,055 - INFO - Selected printer: Canon MF3010
+2025-01-04 10:49:30,090 - INFO - Received card data.
+2025-01-04 10:49:30,313 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:49:30,313 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 10:49:30,313 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 10:49:30,313 - DEBUG - Compression method 0
+2025-01-04 10:49:30,314 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 10:49:30,339 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.jpg
+2025-01-04 10:49:30,358 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:49:30,358 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 10:49:30,358 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 10:49:30,358 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 10:49:30,358 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 10:49:30,457 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:49:30,457 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 10:49:30,457 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 10:49:30,457 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 10:49:30,457 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 10:49:30,554 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:49:30,554 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 10:49:30,792 - INFO - Merging front and back card images to PDF...
+2025-01-04 10:49:30,806 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'back.png'
+2025-01-04 10:49:30,806 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'back.png'
+2025-01-04 10:52:34,033 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 10:52:34,084 - DEBUG - Using proactor: IocpProactor
+2025-01-04 10:52:38,454 - INFO - Selected printer: Canon MF3010
+2025-01-04 10:52:41,446 - INFO - Received card data.
+2025-01-04 10:52:41,500 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:52:41,500 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 10:52:41,500 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 10:52:41,500 - DEBUG - Compression method 0
+2025-01-04 10:52:41,500 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 10:52:41,532 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.jpg
+2025-01-04 10:52:41,555 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:52:41,555 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 10:52:41,555 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 10:52:41,557 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 10:52:41,557 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 10:52:41,647 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:52:41,647 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 10:52:41,647 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 10:52:41,647 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 10:52:41,647 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 10:52:41,730 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:52:41,730 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 10:52:41,970 - INFO - Merging front and back card images to PDF...
+2025-01-04 10:52:41,970 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 10:52:41,970 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 10:53:52,968 - INFO - Root endpoint accessed
+2025-01-04 10:53:53,527 - INFO - Root endpoint accessed
+2025-01-04 10:53:53,669 - INFO - Root endpoint accessed
+2025-01-04 10:53:53,935 - INFO - Root endpoint accessed
+2025-01-04 10:56:29,722 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 10:56:29,792 - DEBUG - Using proactor: IocpProactor
+2025-01-04 10:56:33,901 - INFO - Selected printer: Canon MF3010
+2025-01-04 10:56:37,919 - INFO - Received card data.
+2025-01-04 10:56:37,969 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:56:37,969 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 10:56:37,969 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 10:56:37,969 - DEBUG - Compression method 0
+2025-01-04 10:56:37,969 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 10:56:38,107 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.png
+2025-01-04 10:56:38,126 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:56:38,126 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 10:56:38,126 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 10:56:38,126 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 10:56:38,126 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 10:56:38,218 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:56:38,219 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 10:56:38,219 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 10:56:38,219 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 10:56:38,219 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 10:56:38,310 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:56:38,310 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 10:56:38,658 - INFO - Merging front and back card images to PDF...
+2025-01-04 10:56:38,684 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 10:56:39,357 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 10:56:54,358 - INFO - Successfully removed file: card.pdf
+2025-01-04 10:56:54,358 - INFO - File 'card.pdf' has been removed.
+2025-01-04 10:56:54,358 - INFO - Successfully removed file: front.png
+2025-01-04 10:56:54,359 - INFO - Successfully removed file: back.png
+2025-01-04 10:56:54,359 - INFO - Files removed: None, None
+2025-01-04 10:56:54,359 - INFO - Card successfully created and printed
+2025-01-04 10:58:15,725 - INFO - Received card data.
+2025-01-04 10:58:15,762 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:58:15,763 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 10:58:15,763 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 10:58:15,763 - DEBUG - Compression method 0
+2025-01-04 10:58:15,763 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 10:58:15,900 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.png
+2025-01-04 10:58:15,918 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:58:15,918 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 10:58:15,918 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 10:58:15,918 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 10:58:15,918 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 10:58:16,010 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:58:16,010 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 10:58:16,010 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 10:58:16,010 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 10:58:16,010 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 10:58:16,101 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 10:58:16,101 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 10:58:16,444 - INFO - Merging front and back card images to PDF...
+2025-01-04 10:58:16,468 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 10:58:17,219 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 10:58:32,222 - INFO - Successfully removed file: card.pdf
+2025-01-04 10:58:32,222 - INFO - File 'card.pdf' has been removed.
+2025-01-04 10:58:32,223 - INFO - Successfully removed file: front.png
+2025-01-04 10:58:32,223 - INFO - Successfully removed file: back.png
+2025-01-04 10:58:32,223 - INFO - Files removed: None, None
+2025-01-04 10:58:32,223 - INFO - Card successfully created and printed
+2025-01-04 11:03:20,338 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:03:20,405 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:03:24,957 - INFO - Selected printer: Canon MF3010
+2025-01-04 11:03:27,311 - INFO - Received card data.
+2025-01-04 11:03:27,336 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:03:27,336 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 11:03:27,336 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 11:04:19,895 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:04:19,958 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:04:28,934 - INFO - Selected printer: Canon MF3010
+2025-01-04 11:04:34,551 - INFO - Received card data.
+2025-01-04 11:04:34,575 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:04:34,575 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 11:04:34,575 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 11:06:03,856 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:06:03,921 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:06:08,190 - INFO - Selected printer: Canon MF3010
+2025-01-04 11:06:14,200 - INFO - Received card data.
+2025-01-04 11:06:14,226 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:06:14,226 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\front.png'
+2025-01-04 11:06:14,226 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\front.png'
+2025-01-04 11:07:46,469 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:07:46,537 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:07:50,633 - INFO - Selected printer: Canon MF3010
+2025-01-04 11:07:52,639 - INFO - Received card data.
+2025-01-04 11:07:52,666 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:07:52,666 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:07:52,666 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\front.png'
+2025-01-04 11:07:52,666 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\front.png'
+2025-01-04 11:15:55,350 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:15:55,418 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:15:55,523 - INFO - Root endpoint accessed
+2025-01-04 11:16:05,471 - INFO - Received card data.
+2025-01-04 11:16:05,501 - ERROR - Error processing card data: create_front_card() missing 1 required positional argument: 'filename'
+2025-01-04 11:17:29,226 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:17:29,294 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:17:33,592 - INFO - Selected printer: Canon MF3010
+2025-01-04 11:17:36,508 - INFO - Received card data.
+2025-01-04 11:17:36,535 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:17:36,535 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:17:36,535 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 11:17:36,535 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 11:18:01,843 - INFO - Received card data.
+2025-01-04 11:18:01,884 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:18:01,884 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 11:18:01,884 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 11:18:01,884 - DEBUG - Compression method 0
+2025-01-04 11:18:01,884 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 11:18:01,999 - INFO - Front card saved at frpnt.png
+2025-01-04 11:18:02,019 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:18:02,020 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:18:02,020 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:18:02,020 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:18:02,020 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 11:18:02,111 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:18:02,111 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:18:02,111 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:18:02,111 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:18:02,111 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 11:18:02,203 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:18:02,203 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 11:18:02,514 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:18:02,514 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:18:02,514 - INFO - Error creating PDF: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 11:18:02,514 - ERROR - Error processing card data: [Errno 2] No such file or directory: 'front.png'
+2025-01-04 11:18:35,562 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:18:35,630 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:18:40,562 - INFO - Selected printer: Canon MF3010
+2025-01-04 11:18:42,352 - INFO - Received card data.
+2025-01-04 11:18:42,412 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:18:42,412 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 11:18:42,412 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 11:18:42,412 - DEBUG - Compression method 0
+2025-01-04 11:18:42,412 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 11:18:42,522 - INFO - Front card saved at front.png
+2025-01-04 11:18:42,545 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:18:42,545 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:18:42,545 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:18:42,545 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:18:42,545 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 11:18:42,638 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:18:42,638 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:18:42,638 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:18:42,638 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:18:42,638 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 11:18:42,730 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:18:42,730 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 11:18:43,045 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:18:43,045 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:18:43,070 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 11:18:43,742 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 11:18:58,743 - INFO - Successfully removed file: card.pdf
+2025-01-04 11:18:58,743 - INFO - File 'card.pdf' has been removed.
+2025-01-04 11:18:58,743 - INFO - Error creating PDF: cannot access local variable 'a' where it is not associated with a value
+2025-01-04 11:18:58,744 - ERROR - Error processing card data: cannot access local variable 'a' where it is not associated with a value
+2025-01-04 11:19:28,488 - INFO - Received card data.
+2025-01-04 11:19:28,536 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:19:28,537 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 11:19:28,537 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 11:19:28,537 - DEBUG - Compression method 0
+2025-01-04 11:19:28,537 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 11:19:28,639 - INFO - Front card saved at front.png
+2025-01-04 11:19:28,661 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:19:28,661 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:19:28,661 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:19:28,661 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:19:28,661 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 11:19:28,755 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:19:28,755 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:19:28,755 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:19:28,755 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:19:28,755 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 11:19:28,838 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:19:28,838 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 11:19:29,139 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:19:29,139 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:19:29,169 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 11:20:35,384 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 11:20:50,394 - INFO - Successfully removed file: card.pdf
+2025-01-04 11:20:50,395 - INFO - File 'card.pdf' has been removed.
+2025-01-04 11:20:50,396 - INFO - Error creating PDF: cannot access local variable 'a' where it is not associated with a value
+2025-01-04 11:20:50,397 - ERROR - Error processing card data: cannot access local variable 'a' where it is not associated with a value
+2025-01-04 11:20:50,408 - INFO - Received card data.
+2025-01-04 11:20:50,441 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:20:50,442 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 11:20:50,442 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 11:20:50,442 - DEBUG - Compression method 0
+2025-01-04 11:20:50,442 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 11:20:50,552 - INFO - Front card saved at front.png
+2025-01-04 11:20:50,569 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:20:50,569 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:20:50,569 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:20:50,569 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:20:50,569 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 11:20:50,660 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:20:50,660 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:20:50,660 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:20:50,660 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:20:50,660 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 11:20:50,753 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:20:50,753 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 11:20:51,060 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:20:51,060 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:20:51,078 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 11:22:47,149 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:22:47,229 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:22:51,457 - INFO - Selected printer: Canon MF3010
+2025-01-04 11:23:02,111 - INFO - Received card data.
+2025-01-04 11:23:02,175 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:23:02,175 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 11:23:02,175 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 11:23:02,175 - DEBUG - Compression method 0
+2025-01-04 11:23:02,175 - DEBUG - STREAM b'IDAT' 317 25316
+2025-01-04 11:23:02,289 - INFO - Front card saved at front.png
+2025-01-04 11:23:02,307 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:23:02,307 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:23:02,308 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:23:02,308 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:23:02,308 - DEBUG - STREAM b'IDAT' 91 12383
+2025-01-04 11:23:02,400 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:23:02,400 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:23:02,400 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:23:02,400 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:23:02,400 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 11:23:02,492 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:23:02,493 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 11:23:02,804 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:23:02,804 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:23:02,823 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 11:23:03,378 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 11:23:18,380 - INFO - Successfully removed file: card.pdf
+2025-01-04 11:23:18,381 - INFO - File 'card.pdf' has been removed.
+2025-01-04 11:23:18,382 - INFO - Successfully removed file: front.png
+2025-01-04 11:23:18,384 - INFO - Successfully removed file: back.png
+2025-01-04 11:23:18,384 - INFO - Files removed: None, None
+2025-01-04 11:23:18,384 - INFO - Card successfully created and printed
+2025-01-04 11:23:36,644 - INFO - Received card data.
+2025-01-04 11:23:36,677 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:23:36,677 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 11:23:36,677 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 11:23:36,677 - DEBUG - Compression method 0
+2025-01-04 11:23:36,677 - DEBUG - STREAM b'IDAT' 317 25316
+2025-01-04 11:23:36,790 - INFO - Front card saved at front.png
+2025-01-04 11:23:36,808 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:23:36,808 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:23:36,808 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:23:36,808 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:23:36,808 - DEBUG - STREAM b'IDAT' 91 12383
+2025-01-04 11:23:36,900 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:23:36,900 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:23:36,900 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:23:36,900 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:23:36,900 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 11:23:36,989 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:23:36,989 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 11:23:37,327 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:23:37,327 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:23:37,350 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 11:23:37,965 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 11:23:52,966 - INFO - Successfully removed file: card.pdf
+2025-01-04 11:23:52,966 - INFO - File 'card.pdf' has been removed.
+2025-01-04 11:23:52,968 - INFO - Successfully removed file: front.png
+2025-01-04 11:23:52,969 - INFO - Successfully removed file: back.png
+2025-01-04 11:23:52,969 - INFO - Files removed: None, None
+2025-01-04 11:23:52,969 - INFO - Card successfully created and printed
+2025-01-04 11:34:23,304 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:34:23,371 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:34:30,505 - INFO - Root endpoint accessed
+2025-01-04 11:41:04,003 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 11:41:04,069 - DEBUG - Using proactor: IocpProactor
+2025-01-04 11:41:08,341 - INFO - Selected printer: Canon MF3010
+2025-01-04 11:41:12,231 - INFO - Root endpoint accessed
+2025-01-04 11:42:03,813 - INFO - Received card data.
+2025-01-04 11:42:03,864 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:42:03,864 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 11:42:03,864 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 11:42:03,864 - DEBUG - Compression method 0
+2025-01-04 11:42:03,864 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 11:42:03,983 - INFO - Front card saved at D:\NepaliportPrinter\final_print\local_printer\src\front.png
+2025-01-04 11:42:04,003 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:42:04,003 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:42:04,003 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:42:04,003 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:42:04,003 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 11:42:04,096 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:42:04,096 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 11:42:04,096 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 11:42:04,096 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 11:42:04,096 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 11:42:04,188 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 11:42:04,188 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 11:42:04,504 - INFO - Card images front: None and back: None created successfully
+2025-01-04 11:42:04,504 - INFO - Merging front and back card images to PDF...
+2025-01-04 11:42:04,526 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 11:42:05,399 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 11:42:20,401 - INFO - Successfully removed file: card.pdf
+2025-01-04 11:42:20,401 - INFO - File 'card.pdf' has been removed.
+2025-01-04 11:42:20,404 - INFO - Successfully removed file: front.png
+2025-01-04 11:42:20,405 - INFO - Successfully removed file: back.png
+2025-01-04 11:42:20,405 - INFO - Files removed: None, None
+2025-01-04 11:42:20,406 - INFO - Card successfully created and printed
+2025-01-04 12:45:42,117 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 12:45:42,200 - DEBUG - Using proactor: IocpProactor
+2025-01-04 12:45:47,505 - INFO - Selected printer: Canon MF3010
+2025-01-04 12:45:50,616 - INFO - Received card data.
+2025-01-04 12:45:50,785 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 12:45:50,785 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 12:45:50,785 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 12:45:50,785 - DEBUG - Compression method 0
+2025-01-04 12:45:50,785 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 12:45:50,894 - INFO - Front card saved at front.png
+2025-01-04 12:45:50,916 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 12:45:50,916 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 12:45:50,916 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 12:45:50,916 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 12:45:50,916 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 12:45:51,013 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 12:45:51,013 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 12:45:51,013 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 12:45:51,013 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 12:45:51,013 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 12:45:51,098 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 12:45:51,098 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 12:45:51,449 - INFO - Card images front: back.png and back: front.png created successfully
+2025-01-04 12:45:51,449 - INFO - Merging front and back card images to PDF...
+2025-01-04 12:45:51,470 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 12:49:53,698 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-04 12:49:53,764 - DEBUG - Using proactor: IocpProactor
+2025-01-04 12:49:57,331 - INFO - Selected printer: Canon MF3010
+2025-01-04 12:50:00,442 - INFO - Received card data.
+2025-01-04 12:50:00,510 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 12:50:00,510 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-04 12:50:00,510 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-04 12:50:00,510 - DEBUG - Compression method 0
+2025-01-04 12:50:00,510 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-04 12:50:00,621 - INFO - Front card saved at front.png
+2025-01-04 12:50:00,642 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 12:50:00,642 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 12:50:00,642 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 12:50:00,642 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 12:50:00,643 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-04 12:50:00,719 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 12:50:00,719 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-04 12:50:00,719 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-04 12:50:00,719 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-04 12:50:00,735 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-04 12:50:00,820 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-04 12:50:00,820 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-04 12:50:01,171 - INFO - Card images front: back.png and back: front.png created successfully
+2025-01-04 12:50:01,171 - INFO - Merging front and back card images to PDF...
+2025-01-04 12:50:01,194 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-04 12:50:02,092 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-04 12:50:17,094 - INFO - Successfully removed file: card.pdf
+2025-01-04 12:50:17,094 - INFO - File 'card.pdf' has been removed.
+2025-01-04 12:50:17,094 - INFO - Successfully removed file: front.png
+2025-01-04 12:50:17,096 - INFO - Successfully removed file: back.png
+2025-01-04 12:50:17,096 - INFO - Files removed: None, None
+2025-01-04 12:50:17,096 - INFO - Card successfully created and printed
+2025-01-05 16:01:39,584 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:01:39,729 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:01:51,109 - INFO - Received card data.
+2025-01-05 16:01:51,319 - INFO - Creating card images...
+2025-01-05 16:01:51,319 - INFO - Error creating Front card: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\front.jpg'
+2025-01-05 16:01:51,319 - INFO - Error creating back card: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\back.jpg'
+2025-01-05 16:01:51,319 - INFO - Card images front: None and back: None created successfully
+2025-01-05 16:01:51,319 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:01:51,319 - INFO - Error creating PDF: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:01:51,319 - ERROR - Error processing card data: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:02:14,078 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:02:14,159 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:02:17,523 - INFO - Received card data.
+2025-01-05 16:02:17,545 - INFO - Creating card images...
+2025-01-05 16:02:17,545 - INFO - Error creating Front card: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\front.jpg'
+2025-01-05 16:02:17,545 - INFO - Error creating back card: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\back.jpg'
+2025-01-05 16:02:17,545 - INFO - Card images front: None and back: None created successfully
+2025-01-05 16:02:17,545 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:02:17,545 - INFO - Error creating PDF: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:02:17,545 - ERROR - Error processing card data: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:06:20,140 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:06:20,206 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:06:22,924 - INFO - Received card data.
+2025-01-05 16:06:22,960 - INFO - Creating card images...
+2025-01-05 16:06:22,960 - INFO - Error creating Front card: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\front.jpg'
+2025-01-05 16:06:22,960 - INFO - Error creating back card: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\back.jpg'
+2025-01-05 16:06:22,960 - INFO - Card images front: None and back: None created successfully
+2025-01-05 16:06:22,960 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:06:22,960 - INFO - Error creating PDF: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:06:22,960 - ERROR - Error processing card data: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:06:29,942 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:06:30,005 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:06:34,131 - INFO - Selected printer: Canon MF3010
+2025-01-05 16:06:36,680 - INFO - Received card data.
+2025-01-05 16:06:36,712 - INFO - Creating card images...
+2025-01-05 16:06:36,712 - INFO - Error creating Front card: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\front.jpg'
+2025-01-05 16:06:36,712 - INFO - Error creating back card: [Errno 2] No such file or directory: 'D:\\NepaliportPrinter\\final_print\\local_printer\\src\\back.jpg'
+2025-01-05 16:06:36,712 - INFO - Card images front: None and back: None created successfully
+2025-01-05 16:06:36,712 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:06:36,712 - INFO - Error creating PDF: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:06:36,712 - ERROR - Error processing card data: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:07:21,111 - INFO - Received card data.
+2025-01-05 16:07:21,126 - INFO - Creating card images...
+2025-01-05 16:07:21,290 - INFO - Error creating Front card: cannot open resource
+2025-01-05 16:07:21,299 - INFO - Error creating back card: cannot open resource
+2025-01-05 16:07:21,299 - INFO - Card images front: None and back: None created successfully
+2025-01-05 16:07:21,299 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:07:21,299 - INFO - Error creating PDF: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:07:21,299 - ERROR - Error processing card data: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:19:37,365 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:19:37,430 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:19:42,451 - INFO - Received card data.
+2025-01-05 16:19:42,478 - INFO - Creating card images...
+2025-01-05 16:19:42,490 - INFO - Error creating Front card: cannot open resource
+2025-01-05 16:19:42,499 - INFO - Error creating back card: cannot open resource
+2025-01-05 16:19:42,500 - INFO - Card images front: None and back: None created successfully
+2025-01-05 16:19:42,500 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:19:42,500 - INFO - Error creating PDF: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:19:42,500 - ERROR - Error processing card data: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:22:11,113 - INFO - Received card data.
+2025-01-05 16:22:11,139 - INFO - Creating card images...
+2025-01-05 16:22:11,151 - INFO - Error creating Front card: cannot open resource
+2025-01-05 16:22:11,160 - INFO - Error creating back card: cannot open resource
+2025-01-05 16:22:11,161 - INFO - Card images front: None and back: None created successfully
+2025-01-05 16:22:11,161 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:22:11,161 - INFO - Error creating PDF: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:22:11,161 - ERROR - Error processing card data: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:22:24,699 - INFO - Received card data.
+2025-01-05 16:22:24,713 - INFO - Creating card images...
+2025-01-05 16:22:24,722 - INFO - Error creating Front card: cannot open resource
+2025-01-05 16:22:24,732 - INFO - Error creating back card: cannot open resource
+2025-01-05 16:22:24,732 - INFO - Card images front: None and back: None created successfully
+2025-01-05 16:22:24,732 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:22:24,732 - INFO - Error creating PDF: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:22:24,732 - ERROR - Error processing card data: 'NoneType' object has no attribute 'rfind'
+2025-01-05 16:23:11,580 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:23:11,648 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:23:14,479 - INFO - Received card data.
+2025-01-05 16:23:14,504 - INFO - Creating card images...
+2025-01-05 16:23:14,528 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:23:14,528 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 16:23:14,530 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 16:23:14,530 - DEBUG - Compression method 0
+2025-01-05 16:23:14,540 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 16:23:14,759 - INFO - Back card saved at front.png
+2025-01-05 16:23:14,759 - INFO - Front card saved at front.png
+2025-01-05 16:23:14,777 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:23:14,777 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:23:14,777 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:23:14,777 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:23:14,777 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 16:23:14,870 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:23:14,870 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:23:14,870 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:23:14,870 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:23:14,870 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 16:23:14,962 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:23:14,963 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 16:23:15,334 - INFO - Back card saved at back.png
+2025-01-05 16:23:15,337 - INFO - Card images front: front.png and back: back.png created successfully
+2025-01-05 16:23:15,337 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:23:15,358 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-05 16:23:15,358 - INFO - Error creating PDF: name 'selected_printer' is not defined
+2025-01-05 16:23:15,358 - ERROR - Error processing card data: name 'selected_printer' is not defined
+2025-01-05 16:25:25,749 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:25:25,823 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:25:28,732 - INFO - Received card data.
+2025-01-05 16:25:28,771 - INFO - Creating card images...
+2025-01-05 16:25:28,795 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:25:28,795 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 16:25:28,795 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 16:25:28,795 - DEBUG - Compression method 0
+2025-01-05 16:25:28,795 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 16:25:28,909 - INFO - Back card saved at front.png
+2025-01-05 16:25:28,909 - INFO - Front card saved at front.png
+2025-01-05 16:25:28,928 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:25:28,928 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:25:28,928 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:25:28,928 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:25:28,928 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 16:25:29,020 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:25:29,020 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:25:29,020 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:25:29,020 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:25:29,020 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 16:25:29,109 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:25:29,109 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 16:25:29,455 - INFO - Back card saved at back.png
+2025-01-05 16:25:29,458 - INFO - Card images front: front.png and back: back.png created successfully
+2025-01-05 16:25:29,458 - ERROR - Error processing card data: name 'selected_printer' is not defined
+2025-01-05 16:28:43,517 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:28:43,584 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:28:48,934 - INFO - Selected printer: Microsoft Print to PDF
+2025-01-05 16:29:39,270 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:29:39,334 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:29:44,951 - INFO - Received card data.
+2025-01-05 16:29:44,970 - INFO - Creating card images...
+2025-01-05 16:29:48,528 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:29:48,528 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 16:29:48,528 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 16:29:48,528 - DEBUG - Compression method 0
+2025-01-05 16:29:48,529 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 16:29:48,644 - INFO - Back card saved at front.png
+2025-01-05 16:29:48,644 - INFO - Front card saved at front.png
+2025-01-05 16:29:48,662 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:29:48,662 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:29:48,663 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:29:48,663 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:29:48,663 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 16:29:48,754 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:29:48,754 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:29:48,754 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:29:48,754 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:29:48,754 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 16:29:48,845 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:29:48,845 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 16:29:49,188 - INFO - Back card saved at back.png
+2025-01-05 16:29:49,191 - INFO - Card images front: front.png and back: back.png created successfully
+2025-01-05 16:29:49,191 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:29:49,216 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-05 16:29:49,216 - INFO - Error creating PDF: name 'selected_printer' is not defined
+2025-01-05 16:29:49,216 - ERROR - Error processing card data: name 'selected_printer' is not defined
+2025-01-05 16:30:16,586 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:30:16,658 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:30:19,604 - INFO - Received card data.
+2025-01-05 16:30:19,631 - INFO - Creating card images...
+2025-01-05 16:30:19,631 - ERROR - Error processing card data: name 'selected_printer' is not defined
+2025-01-05 16:30:41,283 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:30:41,351 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:30:47,274 - INFO - Received card data.
+2025-01-05 16:30:47,298 - INFO - Creating card images...
+2025-01-05 16:30:47,299 - ERROR - Error processing card data: name 'selected_printer' is not defined
+2025-01-05 16:33:45,256 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:33:45,323 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:33:48,452 - INFO - Received card data.
+2025-01-05 16:33:48,482 - INFO - Creating card images...
+2025-01-05 16:39:23,237 - INFO - Starting server on http://0.0.0.0:9010
+2025-01-05 16:39:23,311 - DEBUG - Using proactor: IocpProactor
+2025-01-05 16:39:27,790 - INFO - Selected printer: Canon MF3010
+2025-01-05 16:39:31,680 - INFO - Received card data.
+2025-01-05 16:39:31,705 - INFO - Creating card images...
+2025-01-05 16:39:31,729 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:39:31,729 - DEBUG - STREAM b'iCCP' 41 264
+2025-01-05 16:39:31,729 - DEBUG - iCCP profile name b'ICC Profile'
+2025-01-05 16:39:31,729 - DEBUG - Compression method 0
+2025-01-05 16:39:31,729 - DEBUG - STREAM b'IDAT' 317 24332
+2025-01-05 16:39:31,846 - INFO - Back card saved at front.png
+2025-01-05 16:39:31,846 - INFO - Front card saved at front.png
+2025-01-05 16:39:31,864 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:39:31,864 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:39:31,864 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:39:31,864 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:39:31,864 - DEBUG - STREAM b'IDAT' 91 12482
+2025-01-05 16:39:31,956 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:39:31,956 - DEBUG - STREAM b'sRGB' 41 1
+2025-01-05 16:39:31,956 - DEBUG - STREAM b'gAMA' 54 4
+2025-01-05 16:39:31,956 - DEBUG - STREAM b'pHYs' 70 9
+2025-01-05 16:39:31,957 - DEBUG - STREAM b'IDAT' 91 14947
+2025-01-05 16:39:32,051 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-05 16:39:32,052 - DEBUG - STREAM b'IDAT' 41 934
+2025-01-05 16:39:32,401 - INFO - Back card saved at back.png
+2025-01-05 16:39:32,405 - INFO - Card images front: front.png and back: back.png created successfully
+2025-01-05 16:39:32,405 - INFO - Merging front and back card images to PDF...
+2025-01-05 16:39:32,428 - INFO - Full-page PDF successfully created at: card.pdf
+2025-01-05 16:39:32,904 - INFO - File sent to printer successfully.
+2025-01-05 16:39:32,904 - INFO - File 'card.pdf' has been sent to the printer 'Canon MF3010'.
+2025-01-05 16:39:47,906 - INFO - Successfully removed file: card.pdf
+2025-01-05 16:39:47,906 - INFO - File 'card.pdf' has been removed.
+2025-01-05 16:39:47,907 - INFO - Successfully removed file: front.png
+2025-01-05 16:39:47,908 - INFO - Successfully removed file: back.png
+2025-01-05 16:39:47,908 - INFO - Error creating PDF: name 'a' is not defined
+2025-01-05 16:39:47,908 - ERROR - Error processing card data: name 'a' is not defined
